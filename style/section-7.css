@@ -1,0 +1,44 @@
+.section-7{
+    flex-direction: column;
+    color: white;
+    
+}
+
+.section-7-title{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.section-7-block{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.section-7-block-itme{
+width: 20%;
+}
+
+.section-7-img img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.section-7-info{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-7-info h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-7-info p{
+    color: #ff9b08;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+}

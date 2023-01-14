@@ -1,0 +1,68 @@
+.section-9{
+    
+    
+flex-direction: column;
+color: white;
+}
+
+.section-9 h2{
+    font-size: 38px;
+    font-weight: 700;
+
+}
+
+.section-9-content p{
+    font-size: 14px;
+    padding: 10px 10px;
+    line-height: 25px;
+    font-weight: 500;
+    background-color:  #080529;
+    
+}
+
+.accordion{
+    width: 68%;
+    
+    margin-top: 80px;
+}
+
+.section-9-contentBx{
+    position: relative;
+    margin: 20px 20px;
+}
+
+.section-9-label{
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 25px;
+    background-color: rgba(70, 58, 255, 0.12);
+    cursor: pointer;
+}
+
+.accordion .section-9-contentBx .section-9-label::before{
+    content: '+';
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.accordion .section-9-contentBx.active .section-9-label::before{
+    content: '-';
+}
+
+.accordion .section-9-contentBx.active .section-9-content{
+    height: 70px;
+   
+}
+
+.accordion .section-9-contentBx .section-9-content{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+

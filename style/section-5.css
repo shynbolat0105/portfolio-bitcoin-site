@@ -1,0 +1,94 @@
+.section-5 {
+   flex-direction: column;
+   color: white;
+   
+}
+
+.section-5-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 230px 0 0 0;
+}
+
+.section-5-block {
+    overflow-x: auto;
+}
+
+.section-5-block::-webkit-scrollbar{
+    width: 0;
+}
+
+.section-5-block-item{
+    min-width: 30%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roadmap-block{
+    width: 100%;
+    background-color: blue;
+    height: 5px;
+    margin: 20px 0px;
+    position: relative; 
+    
+}
+
+.roadmap-circle{
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    left: 45%;
+    top: -8px;
+}
+
+.roadmap-line{
+    width: 5px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: -2.1%;
+    top: -11px;
+}
+
+.data-text, .roadmap-desc{
+    text-align: center;
+    width: 70%;
+}
+
+.data-text, .roadmap-desc p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section-5 h2{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.roadmap-desc p{
+    line-height: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.roadmap-desc h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.section-5-block-item:nth-child(2), .section-5-block-item:nth-child(4) {
+    flex-direction: column-reverse;
+    position: relative;
+    top: -136px;
+}
+
+.section-5-block-item:nth-child(2) .roadmap-line, .section-5-block-item:nth-child(4) .roadmap-line {
+    position: relative;
+    top: 12px;
+}

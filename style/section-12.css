@@ -1,0 +1,76 @@
+.section-12{
+    flex-direction: column;
+color: white; 
+
+
+}
+
+.section-12 h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.section-12-block{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.section-12-inputs{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.section-12-inputs input, .section-12-input{
+width: 48%;
+background: none;
+border: 1px solid #fff;
+padding: 20px;
+border-radius: 5px;
+font-size: 16px;
+color: #fff;
+outline: none;
+box-sizing: border-box;
+}
+
+.section-12 input::placeholder,  .section-12 textarea::placeholder{
+    font-size: 16px;
+    color: white;
+}
+
+.section-12-input{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.section-12-block textarea{
+    background: none;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.section-12-block .section-12-btn{
+width: 20%;
+
+background-color: #ff9b08;
+border: none;
+padding: 15px 30px;
+border-radius: 20px;
+color: white;
+font-weight: 700;
+font-size: 14px;
+}
+
+.section-12-block .section-12-btn:hover{
+    background-color: #6332f0;
+}

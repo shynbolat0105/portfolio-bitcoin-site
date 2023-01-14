@@ -1,0 +1,177 @@
+.section-8{
+    flex-direction: column;
+    color: white;
+
+width: 100%;
+height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
+ 
+}
+
+.section-8-slider{
+    width: 730px;
+height: 360px;
+   overflow: hidden;
+    margin-top: 80px;
+}
+
+
+.section-8-block{
+    display: flex;
+   
+width: 500%;
+height: 360px;
+}
+
+.section-8 h2{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+
+
+.section-8-block-itme{
+    display: flex;
+    flex-direction: column;
+width: 730px;
+align-items: center;
+
+
+
+}
+
+.section-8-itme{
+transition: 1s;
+width: 20%;
+
+}
+
+.first {
+
+    display: flex;
+}
+
+.star-icons{
+    color: #ffce39;
+
+}
+
+.section-8-txt{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 20px 0;
+}
+
+.section-8-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-8-info-img img{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+
+}
+
+.section-8-info h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 10px 0;
+}
+
+.section-8-info p{
+    font-size: 14px;
+}
+
+.section-8-block input{
+   display: none;
+}
+
+
+
+.section-8-navigation-manual{
+    position: absolute;
+    margin-top: -40px;
+    width: 730px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+border: 1px solid #ffce39;
+width: 7px;
+height: 7px;
+border-radius: 50%;
+cursor: pointer;
+transition: 1s;
+
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+
+.manual-btn:hover{
+    background: #ffce39;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+.section-8-navigation-auto{
+    position: absolute;
+    display: flex;
+width: 730px;
+    justify-content: center;
+    margin-top: 320px;
+
+}
+
+.section-8-navigation-auto div{
+    border: 1px solid #ffce39;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    transition: 1s;
+
+}
+
+.section-8-navigation-auto div:not(:last-child){
+    margin-right: 10px;
+
+}
+
+#radio1:checked ~ .section-8-navigation-auto .uto-btn1{
+    background: #ffce39;
+}
+
+#radio2:checked ~ .section-8-navigation-auto .uto-btn2{
+    background: #ffce39;
+}
+
+#radio3:checked ~ .section-8-navigation-auto .uto-btn3{
+    background: #ffce39;
+}
+#radio4:checked ~ .section-8-navigation-auto .uto-btn4{
+    background: #ffce39;
+}

@@ -1,0 +1,54 @@
+.section-3{
+flex-direction: column;
+color: white;
+}
+
+.section-3 h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section-3-block {
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+
+
+.section-3-block-item{
+width: 31%;
+background-color: rgb(70, 58, 255, 0.12);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 40px;
+padding: 30px 40px;
+box-sizing: border-box;
+text-align: center;
+
+}
+
+.section-3-block-item h3{
+font-size: 22px;
+margin-bottom: 20px;
+margin: 20px 0px;
+}
+
+.section-3-block-item p{
+    font-size: 14px;
+   
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.section-3-block-item img{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

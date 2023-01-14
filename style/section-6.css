@@ -1,0 +1,24 @@
+
+.sction-6-block{
+    width: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.sction-6-block-itme{
+    width: 25%;
+    text-align: center;
+}
+
+.sction-6-block-itme h2{
+font-size: 40px;
+font-weight: 600;
+}
+
+.sction-6-block-itme p{
+    font-size: 18px;
+    margin-top: 20px;
+}
